@@ -1,0 +1,39 @@
+/*manage users
+*/
+#manag li  {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom: none;
+}
+
+#manag table {
+  border-radius: 10px;
+  background-color: white;
+  border-top: none;
+  
+}
+#manag .div{
+  padding: 15px 15px 3px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#t_active, #b_active:hover{
+  background-color:#5cb85c; 
+}
+
+#t_new, #b_new:hover{
+  background-color: #337ab7 ;
+  
+}
+#t_inactive, #b_inactive:hover{
+  background-color: #d9534f ;
+  
+}
+#manag .count{
+  border-style: solid;
+  color: inherit;
+  background-color: white;
+  text-color: black;
+}
